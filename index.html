@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      font-size: 28px;
+      background-color: #04AA6D;
+    }
+
+    #pp {
+      color: #4CAF50;
+      font-size: 28px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky;
+      /* Safari */
+      position: sticky;
+      top: 0;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: #4CAF50;
+    }
+
+    #myDIV {
+      width: 1460px;
+      height: 200px;
+      color: yellow;
+      background: red;
+      animation: mymove 3s infinite;
+    }
+
+    @keyframes mymove {
+      from {
+        background-color: red;
+      }
+
+      to {
+        background-color: blue;
+      }
+    }
+
+    #hello {
+      color: rgb(52, 73, 8);
+    }
+    #hello1 {
+      color: rgb(52, 73, 8);
+    }
+    #hello2 {
+      color: rgb(52, 73, 8);
+    }
+
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #ffffff;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px  rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  width: auto;
+}
+.wer{
+  background-color: #4CAF50;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 28px;
+  font-family: algerian;
+
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position: relative;
+  margin-left: 300px;
+}
+
+.button:hover {background-color: #3e498e}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.container {
+  position: relative;
+  width: 98%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.qw{
+  padding-top: 200px;
+}
+.ab{
+  width: 120%;
+  padding-right: 225px;
+  
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4465dd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4566a0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h2>Industrial Applications of Green Solvents for Sustainable Development of Technologies
+    </h2>
+  </div>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#hello">Examples</a></li>
+    <li><a href="#hello2">Benefits</a></li>
+    <li><a href="#hello1">Applications</a></li>
+    <li><a href="http://127.0.0.1:5500/login.html">Login</a></li>
+    <li><a href="#hello5">Contact</a></li>
+  </ul>
+  <div>
+    <video src="video_20230409_091908_edit.mp4" loop muted autoplay width="1460px"></video>
+  </div>
+  <div id="myDIV">
+    <h2>Introduction: <p id="pp">Green solvents are environmentally friendly solvents that are derived from renewable
+        resources and can be safely used in industrial applications. They offer many advantages over traditional
+        solvents, such as low toxicity, biodegradability, and cost-effectiveness.</p>
+    </h2>
+  </div>
+  <div>
+    <h2 id="hello">Examples:</h2>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item"><div class="container">
+      <img src="co2_molecule_720x400.gif" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><a href="http://127.0.0.1:5500/co2.html"><button  class="wer">READ MORE</button></a></div>
+        <div class="ab"><h2 >Liquid Carbon Dioxide (CO2)</h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL3dhdGVyLXVwZGF0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgyOH19fQ==.webp" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><a href="http://127.0.0.1:5500/water.html"><button  class="wer">READ MORE</button></a></div><div class="ab"><h2 >Water</h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="GreenBio-Based Solvents.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><a href="http://127.0.0.1:5500/bio.html"><button  class="wer">READ MORE</button></a></div><div class="ab"><h2 >Bio Based Solvents</h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="21.jpeg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><a href="https://scholar.google.com/citations?user=GSRFLDkAAAAJ&hl=en"><button  class="wer">READMORE</button></a></div><div class="ab"><h2 >Ionic Liquids</h2></div>
+      </div>
+    </div></div>
+  </div>
+  
+  <div>
+    <h2 id="hello2"><pre>
+
+      
+Benefits:
+</pre></h2>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item"><div class="container">
+      <img src="eco.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/reduced.html';">READ MORE</button></div>
+        <div class="ab"><h2 ><pre>
+   Reduced 
+   environmental 
+   impact</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="8.jpg" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/reduced.html';">READ MORE</button></div><div class="ab"><h2 ><pre>
+Improved
+health and 
+safety for workers</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="4.webp" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/cost.html';">READ MORE</button></div><div class="ab"><h2 ><pre>Lower costs</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="3.webp" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/increase.html';">READMORE</button></div><div class="ab"><h2 ><pre>Increased
+sustainability</pre></h2></div>
+      </div>
+    </div></div>
+  </div>
+  <div>
+    <h2 id="hello1"><pre>
+
+Applications:
+</pre></h2>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item"><div class="container">
+      <img src="a.png" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/pharma.html';">READ MORE</button></div>
+        <div class="ab"><h2 ><pre>
+
+      Pharmaceuticals</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="b.webp" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/paint.html';">READ MORE</button></div><div class="ab"><h2 ><pre>
+Paints and
+coatings</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="c.png" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/clean.html';">READ MORE</button></div><div class="ab"><h2 ><pre>
+Cleaners and
+degreasers</pre></h2></div>
+      </div>
+    </div></div>
+    <div class="grid-item"><div class="container"><img src="ed.webp" alt="Avatar" class="image" style="width:100%">
+      <div class="middle">
+        <div  class="qw"><button  class="wer"onclick = "window.location.href='http://127.0.0.1:5500/fuel.html';">READMORE</button></div><div class="ab"><h2 ><pre>
+Fuels and
+lubricants</pre></h2></div>
+      </div>
+    </div></div>
+  </div>
+  <div id="myDIV">
+    <h2>Conclusion: <p id="pp">The use of green solvents is a key component of sustainable development in the technology industry. By adopting these environmentally friendly alternatives, we can reduce our impact on the planet and create a more sustainable future.</p>
+    </h2>
+  </div>
+  <div id="hello5">
+    <h3>Contact us</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="india">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  </div>
+  
+
+
+</body>
+
+</html>
